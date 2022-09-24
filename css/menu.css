@@ -1,0 +1,43 @@
+* {
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.body {
+    background-image: url();
+}
+.menu {
+    border: 5px solid orange;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.menu-inner {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #999;
+}
+.nav li a {
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 15px;
+}
+.nav li a:hover {
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.nav li {
+    padding: 20px;
+}

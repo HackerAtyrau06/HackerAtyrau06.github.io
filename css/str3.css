@@ -1,0 +1,88 @@
+* {
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.body {
+    background-image: url();
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.menu-inner {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #999;
+}
+.nav li a {
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 15px;
+}
+.nav li a:hover {
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.nav li {
+    padding: 20px;
+}
+.test {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    color: orange;
+    padding: 2px 0;
+}
+.nav .test {
+    text-transform: uppercase;
+    padding: 1px;
+    color: orange;
+    border: 8px solid orange ;
+ }
+.image {
+     border-radius: 13px 0;
+     padding: 8px;
+}
+.crs {
+    text-transform: uppercase;
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid white;
+    border-radius: 2px 0;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px 0;
+    color: red;
+    text-transform: uppercase;
+
+
+}
+
+.course {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    color: orange;
+    padding: 2px 0;
+    
+ }
+ .nav .course {
+    text-transform: uppercase;
+    padding: 1px;
+    color: orange;
+    border: 8px solid orange ;
+ }
