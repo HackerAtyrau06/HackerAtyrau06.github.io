@@ -41,3 +41,10 @@
 .nav li {
     padding: 20px;
 }
+.foot h3 {
+    color: red;
+    
+    padding: 70px;
+    border: 1px solid blue;
+    text-transform: uppercase;
+}
